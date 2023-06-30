@@ -1,0 +1,26 @@
+
+.container{
+  scroll-snap-type:y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+section{
+  height: 100vh;
+  scroll-snap-align: start;
+}
+.one{
+  background: #d9a5b3;
+  height: 80vh;
+}
+.two{
+  background: #1868ae;
+}
+.three{
+  background: white;
+}
+.four{
+  background: #c6d7eb;
+}
+.hideNavBar {
+  display: none;
+}
